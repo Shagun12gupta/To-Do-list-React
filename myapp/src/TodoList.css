@@ -1,0 +1,82 @@
+/* todo-list.css */
+.todo-list {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .todo-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input[type="text"],
+  .todo-list input[type="date"] {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-list button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .todo-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .todo-list span {
+    font-weight: bold;
+  }
+  
+  .todo-list .edit-button,
+  .todo-list .delete-button,
+  .todo-list .save-button {
+    background-color: #d9534f;
+  }
+  
+  .todo-list .edit-button:hover,
+  .todo-list .delete-button:hover,
+  .todo-list .save-button:hover {
+    background-color: #c9302c;
+  }
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .todo-list .edit-button {
+    background-color: #d9534f;
+    margin-left: auto; /* Move the Edit button to the right */
+  }
+  
+  .todo-list .edit-button:hover {
+    background-color: #c9302c;
+  }
+  
